@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacional Vistoria - Guarulhos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        :root { --azul: #0a3d62; --vermelho: #d90429; --branco: #ffffff; }
+        body { font-family: sans-serif; margin: 0; padding: 0; background: var(--branco); }
+        header { display: flex; justify-content: space-around; align-items: center; padding: 15px; background: #fff; }
+        .logo { height: 70px; width: auto; }
+        .hero { 
+            background: linear-gradient(rgba(10,61,98,0.7), rgba(10,61,98,0.7)), url('ponte_guarulhos.jpg');
+            height: 400px; background-size: cover; background-position: center;
+            color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px;
+        }
+        .tag { background: var(--vermelho); padding: 10px; border-radius: 5px; font-weight: bold; margin: 15px 0; }
+        .card-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px 10px; background: #f9f9f9; }
+        .card { background: #fff; border-radius: 10px; padding: 25px; width: 280px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; border-bottom: 5px solid var(--azul); }
+        .price { font-size: 28px; color: var(--vermelho); font-weight: bold; margin: 15px 0; }
+        .btn { background: var(--vermelho); color: white; text-decoration: none; padding: 12px; display: block; border-radius: 5px; font-weight: bold; }
+        .footer { background: var(--azul); color: white; text-align: center; padding: 30px; }
+        .wa-float { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; width: 60px; height: 60px; border-radius: 50px; text-align: center; font-size: 30px; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); z-index: 100; }
+        .wa-float i { margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo_nacional.jpg" alt="Nacional" class="logo">
+    <img src="logo_prefeitura.jpg" alt="Prefeitura" class="logo">
+</header>
+
+<section class="hero">
+    <h1>Nacional Vistoria Automotiva</h1>
+    <div class="tag">Resolução 466/2013 do CONTRAN</div>
+    <p>Leves, Médios e Pesados - Guarulhos/SP</p>
+</section>
+
+<section class="card-container">
+    <div class="card">
+        <h3>Laudo Cautelar</h3>
+        <div class="price">R$ 350,00</div>
+        <a href="https://wa.me/5511964367387?text=Olá, quero agendar Laudo Cautelar" class="btn">AGENDAR</a>
+    </div>
+    <div class="card">
+        <h3>Laudo Simples</h3>
+        <div class="price">R$ 280,00</div>
+        <a href="https://wa.me/5511964367387?text=Olá, quero agendar Laudo Simples" class="btn">AGENDAR</a>
+    </div>
+</section>
+
+<div style="padding: 40px; text-align: center;">
+    <h2>Onde Estamos</h2>
+    <p>Av. João Bernardo de Medeiros, 2740 - Esq. com Av. Tiradentes</p>
+    <p>Segunda a Sexta: 09h às 16h</p>
+</div>
+
+<footer class="footer">
+    <p>nacionalgru.com.br © 2026</p>
+</footer>
+
+<a href="https://wa.me/5511964367387" class="wa-float" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+</a>
+
+</body>
+</html>
